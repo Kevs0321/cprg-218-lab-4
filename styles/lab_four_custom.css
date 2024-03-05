@@ -9,3 +9,16 @@
     justify-content: center;
     align-items: center;
 }
+
+.hero-text {
+    text-align: center;
+
+}
+
+.hero-text h1:hover {
+    color: #76AFE2;
+}
+
+.hero-text p:hover {
+    color: #76AFE2;
+}
