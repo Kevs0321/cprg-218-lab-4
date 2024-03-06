@@ -11,6 +11,10 @@
   <link rel="stylesheet" type="text/css" href="/styles/lab_four_custom.css">
 </head>
 
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+<script src="./scripts/lab_four_custom.js" defer></script>
+<script src="https://kit.fontawesome.com/9485494704.js" crossorigin="anonymous"></script>
+
 <body>
 
   <!-- Hero Banner -->
@@ -25,27 +29,121 @@
   </section>
   <section class="container content-container">
     <div class="content">
-      <div class="content-message">
-      <h1>Content</h1>
+      <div class="ct-msgs">
+        <h1>Mural</h1>
+        <p>My wife and I were just walking by the street when we saw this awesome street art</p>
+      </div>
+      <div class="ct-image">
+        <img src="./assets/street.jpg"/>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="ct-msgs">
+        <h1>Scooters</h1>
+        <p>Rental scooters are available within downtown Calgary in just a tap on your phone</p>
+      </div>
+      <div class="ct-image">
+        <img src="./assets/scooter.jpg"/>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="ct-msgs">
+        <h1>7 Street Station</h1>
+        <p>Just so happens that no one was waiting for the train that day</p>
+      </div>
+      <div class="ct-image">
+        <img src="./assets/station.jpg"/>
       </div>
     </div>
   </section>
-  <section class="container accordion-container">
-
 
     <!-- Accordion -->
 
-    <div class="remove-assignment-content">
-      <h1>Accordion</h1>
+  <section class="container accordion-container">
+    <h1 class="accordion-header">More Info</h1>
+    <div class="accordion-wrapper">
+      <details class="accordion">
+        <summary>
+          Portfolio
+        </summary>
+        <div>
+          <p>Click here for more photos</p>
+          <p><a class="accordion-link" target="_blank" href="https://www.flickr.com/photos/kevsfernandez/">Flickr</a></p>
+        </div>
+      </details>
+      
+      <details class="accordion">
+        <summary>
+          Gears
+        </summary>
+        <p>Canon m50 Mark II</p>
+        <p>Canon 22m f2.0</p>
+        <p>Canon 16mm-50mm f3.5</p>
+        <p>Spider Belt Holster</p>
+      </details>
+      
+      <details class="accordion">
+        <summary>
+          Contact Info
+        </summary>
+        <p>Message me on Flicker 🤣</p>
+      </details>
+     
     </div>
   </section>
-  <section class="footer-container">
-
 
     <!-- Footer -->
-    <div class="remove-assignment-content">
-      <h1>Footer</h1>
-    </div>
-  </section>
+
+    <section class="footer-container">
+      <div class="footer-wrapper">
+        <div class="footer-message">
+          <div class="footer-info">
+            <h2>Socials</h2>
+              <p class="footer-icons">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <i class="fa-solid fa-camera"></i>
+                <i class="fa-solid fa-video"></i>
+              </p>
+              <h2>Brief history about me</h2>
+              <p>
+                Came here in Canada September last year <br/>
+                So far the weather is killing me.
+              </p>
+          </div>
+          <div class="footer-links">
+              <h2>Links</h2>
+              <p>
+                <a href="#">Privacy Policy</a> 
+                <i class="fa-solid fa-chevron-right"></i>
+              </p>
+              <p>
+                <a href="#">Terms of Use</a>
+                <i class="fa-solid fa-chevron-right"></i>
+              </p>
+              <p>
+                <a href="#">Accessibility</a>
+                <i class="fa-solid fa-chevron-right"></i>
+              </p>
+          </div>
+        </div>
+        <div class="footer-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.3906048482936!2d-114.08306122418807!3d51.04587504431523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f2f8948af97%3A0xb1850bf5e65dacbd!2s825%208%20Ave%20SW%2C%20Calgary%2C%20AB%20T2P%202T4!5e0!3m2!1sen!2sca!4v1709688378564!5m2!1sen!2sca"
+            width="80%" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+      <div class="footer-wrapper">
+          <div class="footer-copyright">
+            Copyright &#169; <span id="footer-year"></span> Kevin Fernandez
+          </div>
+      </div>
+    </section>
 </body>
 </html>
